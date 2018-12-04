@@ -1,0 +1,25 @@
+{
+  "name": "loopback-full-text-search",
+  "version": "1.0.0",
+  "description": "Add Full-text search when using the 'q' parameter in the where clause for Loopback 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darthwesker/loopback-full-text-search.git"
+  },
+  "keywords": [
+    "loopback",
+    "node",
+    "Full-text",
+    "Search"
+  ],
+  "author": "Carlos Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darthwesker/loopback-full-text-search/issues"
+  },
+  "homepage": "https://github.com/darthwesker/loopback-full-text-search#README.md"
+}
