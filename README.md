@@ -35,6 +35,27 @@ And the make the Full-text search using the `q` parameter in the `where` clause:
 }
 ```
 
+## react-admin
+
+You can use loopback-full-text-search with [react-admin](https://github.com/marmelab/react-admin).
+
+```js
+// in src/books.js
+const BookFilter = (props) => (
+  <Filter {...props}>
+    <TextInput label="Search" source="q" alwaysOn />
+  </Filter>
+);
+
+export const BookList = (props) => (
+  <List {...props} filters={<BookFilter />} >
+    ...
+  </List>
+);
+```
+
+Don't forget to check [loopback-content-range](https://github.com/darthwesker/loopback-content-range) and [react-admin-loopback](https://github.com/darthwesker/react-admin-loopback).
+
 ## License
 
 This library is licensed under the [MIT Licence](LICENSE).
