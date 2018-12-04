@@ -9,7 +9,7 @@ npm install --save loopback-full-text-search
 
 ## Usage
 
-Modify your server/component-config.json to include this module and configure the models and field you want to include in the Full-text search:
+Modify your server/component-config.json to include this module and configure the models and fields you want to include in the Full-text search:
 
 ```json
 "loopback-full-text-search": {
@@ -26,7 +26,7 @@ Modify your server/component-config.json to include this module and configure th
 }
 ```
 
-And the make the Full-text search using the `q` parameter in the `where` clause:
+And make the Full-text search using the `q` parameter in the `where` clause:
 ```json
 { 
   "where": {
